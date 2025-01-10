@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(241, 241, 158);
+}
+.game{
+    display: flex;
+    height: 50vh;
+    width: 100vh;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 13px;
+}
+.gameLeft{
+    height: 100%;
+    width: 70%;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.gameRight{
+    border-radius: 13px;
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    border: 3px solid black;
+    border-left: 1px solid black;
+}
+.keyboard{
+    border-radius: 13px;
+    height: 7vh;
+    width: 100vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    font-weight: bold;
+    display: inline-block;
+    padding: .5rem 1rem;
+    margin:  .3rem;
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.hint{
+    width: 100px;
+}
+.textarea{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.container{
+    position: fixed;
+    top: 50px;
+}
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 450px;
+    background-color: cyan;
+    color: white;
+    text-align: center;
+    border-radius: 13px;
+}
+.centeredTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 450px;
+    background-color: cyan;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 13px;
+    font-size: 50px;
+}
+#animals,
+#food,
+#cars,
+#movies{
+    width: 100px;
+}
